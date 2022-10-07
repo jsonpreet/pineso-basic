@@ -50,19 +50,6 @@ const Header = () => {
         }
     }
     
-    // useEffect(() => {
-    //     window.addEventListener('scroll', isSticky);
-    //     return () => {
-    //         window.removeEventListener('scroll', isSticky);
-    //     };
-    // },[]); 
-    // /* Method that will fix header after a specific scrollable */
-    // const isSticky = (e) => {
-    //     const header = document.querySelector('.header-section');
-    //     const scrollTop = window.scrollY;
-    //     scrollTop >= 250 ? header.classList.add('fixed') : header.classList.remove('fixed');
-    // };
-    
     return (
         <div className={`header-section fixed flex top-0 left-0 w-full bg-opacity-50 z-10 flex-row h-[70px] box-border py-2 px-4 bg-white backdrop-blur-3xl`}>
             <div>
